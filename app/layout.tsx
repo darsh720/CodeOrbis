@@ -13,6 +13,14 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "CodeOrbis Technologies",
   description: "The Future of Tech Solutions",
+  icons: {
+    icon: [
+      {
+        url: 'public/new.png',
+        href: '/new.png',
+      },
+    ],
+  }
 };
 
 export default function RootLayout({

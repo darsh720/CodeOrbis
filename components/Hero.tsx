@@ -117,7 +117,7 @@ export default function Hero() {
                 ))}
               </div>
               <p className="text-sm text-slate-600 font-semibold">
-                <span className="text-slate-900 font-bold">2.5K+</span> Active Users
+                <span className="text-slate-900 font-bold">100+</span> Active Clients
               </p>
             </div>
             <div className="flex items-center gap-1">
