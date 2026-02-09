@@ -175,7 +175,7 @@ export default function Contact() {
                     onChange={handleChange} 
                     placeholder="John Doe" 
                     required 
-                    className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-blue-500 focus:bg-white outline-none transition-all transform focus:scale-[1.02]" 
+                    className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-blue-500 focus:bg-white outline-none transition-all transform focus:scale-[1.02] text-slate-900 placeholder:text-slate-400" 
                   />
                 </div>
                 <div className="space-y-2 group">
@@ -187,7 +187,7 @@ export default function Contact() {
                     onChange={handleChange} 
                     placeholder="john@example.com" 
                     required 
-                    className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-blue-500 focus:bg-white outline-none transition-all transform focus:scale-[1.02]" 
+                    className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-blue-500 focus:bg-white outline-none transition-all transform focus:scale-[1.02] text-slate-900 placeholder:text-slate-400" 
                   />
                 </div>
               </div>
@@ -198,7 +198,7 @@ export default function Contact() {
                   name="subject" 
                   value={formData.subject} 
                   onChange={handleChange} 
-                  className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-blue-500 focus:bg-white outline-none transition-all text-slate-600 transform focus:scale-[1.02]"
+                  className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-blue-500 focus:bg-white outline-none transition-all text-slate-900 transform focus:scale-[1.02]"
                 >
                   <option>General Inquiry</option>
                   <option>Project Proposal</option>
@@ -216,7 +216,7 @@ export default function Contact() {
                   onChange={handleChange} 
                   placeholder="Tell us about your project..." 
                   required 
-                  className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-blue-500 focus:bg-white outline-none transition-all resize-none transform focus:scale-[1.02]"
+                  className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-blue-500 focus:bg-white outline-none transition-all resize-none transform focus:scale-[1.02] text-slate-900 placeholder:text-slate-400"
                 ></textarea>
               </div>
 

@@ -148,7 +148,7 @@ export default function Hero() {
           <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-full blur-xl opacity-20 animate-[float_8s_ease-in-out_infinite_1s]" />
 
           {/* Card Container with Hover Effect */}
-          <div className="relative z-10 bg-white rounded-[2rem] p-8 shadow-[0_20px_50px_rgb(0,0,0,0.1)] border border-slate-100 w-full max-w-[460px] h-[440px] flex flex-col transition-all duration-500 hover:shadow-[0_30px_60px_rgb(0,0,0,0.15)] hover:-translate-y-2">
+          <div className="relative z-10 bg-white rounded-[2rem] p-8 shadow-[0_20px_50px_rgb(0,0,0,0.1)] border border-slate-100 w-full max-w-[460px] h-[440px] md:h-[480px] lg:h-[440px] flex flex-col transition-all duration-500 hover:shadow-[0_30px_60px_rgb(0,0,0,0.15)] hover:-translate-y-2">
             
             {/* Card Header with Slide Animation */}
             <div className="flex justify-between items-start mb-6 shrink-0">

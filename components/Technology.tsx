@@ -263,7 +263,7 @@ export default function Technology() {
                   </span>
 
                   {/* Hover Glow Effect */}
-                  <div className={`absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${techSlides[activeSlide].color} blur-xl -z-10`} style={{ filter: 'blur(20px)' }} />
+                  <div className={`absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-45 transition-opacity duration-500 ${techSlides[activeSlide].color} blur-xl -z-10`} style={{ filter: 'blur(20px)' }} />
                 </div>
               ))}
             </div>

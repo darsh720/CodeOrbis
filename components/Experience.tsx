@@ -231,7 +231,7 @@ export default function Experience() {
         </div>
 
         {/* Bottom Call-to-Action */}
-        <div 
+        {/* <div 
           className={`mt-16 text-center transition-all duration-700 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}
@@ -246,7 +246,7 @@ export default function Experience() {
             </span>
             <span className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </button>
-        </div>
+        </div> */}
 
       </div>
 
